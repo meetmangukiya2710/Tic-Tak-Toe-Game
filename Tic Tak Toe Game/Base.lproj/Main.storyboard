@@ -134,7 +134,6 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3RO-LL-WlI" secondAttribute="height" multiplier="1:1" id="6yg-Tt-F0v"/>
                                     <constraint firstAttribute="width" secondItem="3RO-LL-WlI" secondAttribute="height" multiplier="1:1" id="EZs-ap-Yt9"/>
@@ -147,7 +146,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzj-k0-Sl5">
-                                <rect key="frame" x="169" y="107.66666666666666" width="42" height="71.666666666666657"/>
+                                <rect key="frame" x="169" y="108" width="56" height="72"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -159,7 +158,7 @@
                             <constraint firstItem="3RO-LL-WlI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="710-pj-Wi2"/>
                             <constraint firstItem="mzj-k0-Sl5" firstAttribute="top" secondItem="nKY-nL-VGg" secondAttribute="bottom" id="D09-vo-etA"/>
                             <constraint firstItem="3RO-LL-WlI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FBs-ii-NlZ"/>
-                            <constraint firstItem="mzj-k0-Sl5" firstAttribute="centerX" secondItem="nKY-nL-VGg" secondAttribute="centerX" id="KZl-e1-NFw"/>
+                            <constraint firstItem="mzj-k0-Sl5" firstAttribute="centerX" secondItem="nKY-nL-VGg" secondAttribute="centerX" constant="7" id="KZl-e1-NFw"/>
                             <constraint firstItem="nKY-nL-VGg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="c23-O8-nYq"/>
                             <constraint firstItem="nKY-nL-VGg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="n7D-a7-dxX"/>
                             <constraint firstItem="mzj-k0-Sl5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="wFe-TA-13T"/>
@@ -167,7 +166,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="a1" destination="1eb-t2-096" id="9oS-Zw-apN"/>
+                        <outlet property="a1" destination="1eb-t2-096" id="rfG-T9-FcQ"/>
                         <outlet property="a2" destination="hFW-B3-hx6" id="3uc-Bk-zgi"/>
                         <outlet property="a3" destination="GCa-7M-ldP" id="i8S-Qn-28T"/>
                         <outlet property="b1" destination="r4f-ef-tZg" id="tc4-s1-NZW"/>
@@ -181,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="218" y="21"/>
+            <point key="canvasLocation" x="217.55725190839695" y="20.422535211267608"/>
         </scene>
     </scenes>
     <resources>

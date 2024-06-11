@@ -13,7 +13,7 @@ enum Turn {
 }
 
 class ViewController: UIViewController {
-       
+    
     @IBOutlet weak var turnLabel: UILabel!
     @IBOutlet weak var a1: UIButton!
     @IBOutlet weak var a2: UIButton!
@@ -51,8 +51,26 @@ class ViewController: UIViewController {
         board.append(c1)
         board.append(c2)
         board.append(c3)
+        
+        let arr = [a1,a2,a3,b1,b2,b3,c1,c2,c3]
+        
+        for i in arr {
+            i?.layer.cornerRadius = 10
+        }
+        
+        let gradientLayer = CAGradientLayer()
+        
+        gradientLayer.colors = [UIColor.blue.withAlphaComponent(0.8).cgColor, UIColor.blue.withAlphaComponent(0.4).cgColor]
+        gradientLayer.locations = [0.0, 1.0]
+        
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+        gradientLayer.endPoint = CGPoint(x: 0.0, y: 1.0)
+        
+        gradientLayer.frame = view.frame
+        
+        view.layer.insertSublayer(gradientLayer, at: 0)
     }
-
+    
     @IBAction func boardTapAction(_ sender: UIButton) {
         addToBoard(sender)
         
